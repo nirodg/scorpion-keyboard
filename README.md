@@ -1,11 +1,13 @@
 # Scorpion K7 for Linux
 
-An open-source Linux alternative to the official Windows app for the
-**Genius Scorpion K7** RGB gaming keyboard (USB `0458:6013`).
+Customize the **Genius Scorpion K7** RGB gaming keyboard (USB `0458:6013`)
+on Linux, the same way Windows and macOS users do with the official Genius
+software.
 
-A budget keyboard (**90 lei, about €16**) whose configuration software only
-runs on Windows. Now it can be configured on Linux too: the protocol was
-reverse-engineered from the official app and rebuilt as a native GNOME app.
+A budget keyboard (**90 lei, about €16**) with official configuration software
+for Windows and macOS only, so Linux users could type on it but not customize
+it. This open-source app closes that gap: the protocol was reverse-engineered
+from the official app and rebuilt as a native GNOME app for Ubuntu.
 
 ![Genius Scorpion K7 keyboard with its box](docs/images/keyboard.jpg)
 
@@ -28,6 +30,21 @@ reverse-engineered from the official app and rebuilt as a native GNOME app.
 
 > Not affiliated with Genius / KYE Systems. "Genius" and "Scorpion" are their
 > trademarks.
+
+## Feature parity with the official app
+
+The goal is to offer everything the official Windows/macOS software does.
+
+| Official app feature | Linux |
+|---|---|
+| Lighting mode, brightness, speed, direction | ✅ |
+| Copilot key: assign a shortcut (macro) | ✅ |
+| Copilot key: launch an app | ✅ (via GNOME shortcut) |
+| Settings saved on the keyboard | ✅ |
+| Custom colours / 7-colour palette | 🚧 planned |
+| Remap any key, Fn-key assignments | 🚧 planned |
+| Macros on other keys | 🚧 planned |
+| Win-key / Alt+F4 lock | 🚧 planned |
 
 ## Install (Ubuntu / Debian)
 

@@ -48,9 +48,9 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/nirodg/scorpion-keyboard
 Description: Linux configurator for the Genius Scorpion K7 keyboard
- Open-source alternative to the official Windows app: change the RGB
- backlight (mode, brightness, speed, direction) and remap the Copilot key
- to a shortcut or a command. Settings are stored on the keyboard.
+ Customize the keyboard on Linux like the official Windows/macOS software:
+ change the RGB backlight (mode, brightness, speed, direction) and remap the
+ Copilot key to a shortcut or a command. Settings are stored on the keyboard.
  Includes a udev rule so the logged-in user can configure it without root.
 EOF
 

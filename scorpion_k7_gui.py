@@ -533,8 +533,8 @@ class Window(Adw.ApplicationWindow):
         box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6, margin_top=12, margin_bottom=12)
         title = Gtk.Label(label="Scorpion K7 for Linux")
         title.add_css_class("title-1")
-        sub = Gtk.Label(label=f"Version {VERSION} · An open-source alternative to the official Windows app "
-                              "for the Genius Scorpion K7 keyboard", wrap=True,
+        sub = Gtk.Label(label=f"Version {VERSION} · Customize the Genius Scorpion K7 on Linux, "
+                              "just like the official Windows and macOS software", wrap=True,
                         justify=Gtk.Justification.CENTER)
         sub.add_css_class("dim-label")
         box.append(title)
