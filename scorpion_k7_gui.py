@@ -21,7 +21,7 @@ from gi.repository import Adw, Gdk, Gio, GLib, Gtk  # noqa: E402
 import scorpion_k7 as k7  # noqa: E402
 
 APP_ID = "io.github.scorpion_k7"
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 AUTHOR = "Brage Dorin"
 AUTHOR_URL = "https://github.com/nirodg"
 REPO_URL = "https://github.com/nirodg/scorpion-keyboard"
@@ -64,6 +64,9 @@ class Window(Adw.ApplicationWindow):
 
         stack.add_titled_with_icon(self.build_lighting(), "light", "Lighting", "display-brightness-symbolic")
         stack.add_titled_with_icon(self.build_copilot(), "copilot", "Copilot key", "input-keyboard-symbolic")
+        from macros_page import MacrosPage
+        self.macros_page = MacrosPage(self)
+        stack.add_titled_with_icon(self.macros_page, "macros", "Macros", "media-playlist-repeat-symbolic")
         stack.add_titled_with_icon(self.build_about(), "about", "About", "help-about-symbolic")
 
         box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)

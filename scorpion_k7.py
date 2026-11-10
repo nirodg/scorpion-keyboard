@@ -364,6 +364,11 @@ def main():
     d.add_argument("length", type=lambda s: int(s, 0))
     d.add_argument("-o", "--output")
     d.add_argument("--block", type=int, default=8, help="bytes per read transaction (app uses 8)")
+    r = sub.add_parser("restore", help="write a backup image (from 'dump 0x0 0x1000') back")
+    r.add_argument("file")
+    r.add_argument("--start", type=lambda s: int(s, 0), default=0xD0)
+    r.add_argument("--end", type=lambda s: int(s, 0), default=0x400)
+    r.add_argument("--yes", action="store_true")
     sub.add_parser("raw-get")
     sub.add_parser("release", help="return keyboard to normal mode (07 20)")
     sub.add_parser("led", help="show current lighting record")
@@ -378,7 +383,19 @@ def main():
         print(dev)
         return
     with session(dev) as k:
-        if a.cmd == "release":
+        if a.cmd == "restore":
+            img = open(a.file, "rb").read()
+            if len(img) < a.end or img[0xD0:0xD2] != b"\xe1\x1e":
+                sys.exit("not a full backup image (expected 4 KB from 'dump 0x0 0x1000')")
+            print(f"restore 0x{a.start:x}..0x{a.end:x} ({a.end - a.start} bytes) from {a.file}")
+            if not a.yes:
+                print("dry run; add --yes to write")
+            else:
+                for off in range(a.start, a.end, 8):
+                    k.write_block(off, img[off:min(off + 8, a.end)])
+                k.apply()
+                print("restored")
+        elif a.cmd == "release":
             print("release sent (07 20)")
         elif a.cmd == "raw-get":
             print(k.get_feature().hex(" "))

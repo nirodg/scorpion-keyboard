@@ -1,0 +1,824 @@
+[
+ {
+  "name": "AKM recoil spray",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 5
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 2
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   }
+  ]
+ },
+ {
+  "name": "M16 recoil spray",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 5
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 2
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   }
+  ]
+ },
+ {
+  "name": "M4 recoil spray",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 5
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 15,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 15,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 15,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 15,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   }
+  ]
+ },
+ {
+  "name": "UMP9 recoil spray",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 5
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 15,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 20,
+    "amount": 0,
+    "delay": 5
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "move",
+    "action": "press",
+    "code": 0,
+    "dx": 0,
+    "dy": 15,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   }
+  ]
+ },
+ {
+  "name": "Jump punch",
+  "mode": "times",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 26,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 500
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 26,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 44,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 0
+   },
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 6,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 6,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 44,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   }
+  ]
+ },
+ {
+  "name": "Quick scope (right click)",
+  "mode": "times",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 243,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 243,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   }
+  ]
+ },
+ {
+  "name": "Auto sprint",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 225,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 1
+   },
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 26,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   }
+  ]
+ },
+ {
+  "name": "Open map",
+  "mode": "times",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 16,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 30
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 16,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   }
+  ]
+ },
+ {
+  "name": "Instant scope tap",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 243,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 243,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   }
+  ]
+ },
+ {
+  "name": "First-aid kit",
+  "mode": "hold",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 37,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 37,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 20
+   }
+  ]
+ },
+ {
+  "name": "Melee strike",
+  "mode": "times",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 33,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 33,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 800
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   }
+  ]
+ },
+ {
+  "name": "Throw grenade",
+  "mode": "times",
+  "repeat": 1,
+  "events": [
+   {
+    "kind": "key",
+    "action": "press",
+    "code": 34,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   },
+   {
+    "kind": "key",
+    "action": "release",
+    "code": 34,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 800
+   },
+   {
+    "kind": "mouse",
+    "action": "press",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   },
+   {
+    "kind": "mouse",
+    "action": "release",
+    "code": 241,
+    "dx": 0,
+    "dy": 0,
+    "amount": 0,
+    "delay": 10
+   }
+  ]
+ }
+]

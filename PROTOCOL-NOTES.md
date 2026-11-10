@@ -91,3 +91,23 @@ Status reply byte 1 is NOT a freeze flag (was 01 while typing worked).
 - Address map for LED mode/colour/brightness/speed, key remap table, macros.
 - Meaning of opcodes 0x09 (bits from 5 mode globals) and 0x20.
 - These are best recovered by capturing real traffic (Wine + hidraw, or usbmon) while changing settings.
+
+## Macros (v0.2)
+Memory is **2 KB** (0x800–0xFFF mirrors 0x000–0x7FF); 0x7C0–0x7FF holds the identity string
+`B009 KAI LE K783025B -AI-FN`. Macro data lives in 0x240–0x3F8.
+
+**Slot table** @0x1D8 (B+0xF8): 20 entries × 5 bytes
+`07, (count&0x7F) | hold<<7, addr_lo, toggle<<7 | (addr_hi&0x3F), count>>7`
+— count = events + long-delay padding pairs; hold = repeat while held (rapid fire),
+toggle = repeat until pressed again; neither = play N times.
+
+**Macro data**: 2-byte header (repeat count u16 LE, or `01 00` for hold/toggle), then per event
+`b0, code` with b0 = (0x80 if press) | delay (ms>>3, 1..127; longer delays add `7f 00` pairs),
+terminated by `00 00`, padded to 8 bytes. Codes: HID usages for keys; mouse buttons
+**0xF1 left, 0xF3 right, 0xF2 middle** (device-verified); `0xF6` mouse move + dx,dy (i16 LE);
+`0xF7` wheel + amount; `0xFA` consumer/media + 16-bit usage.
+
+**Key → macro**: a key-map cell holding `0xA5+slot` (slot 0–10) or `0xAD+slot` (slot 11–19)
+plays that slot. The Copilot key is cell (col 9, row 7) = `0xA6` → slot 1.
+
+Verified: encoding the official Copilot macro reproduces the factory bytes exactly.

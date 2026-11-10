@@ -11,9 +11,9 @@ from the official app and rebuilt as a native GNOME app for Ubuntu.
 
 ![Genius Scorpion K7 keyboard with its box](docs/images/keyboard.jpg)
 
-| Lighting | Copilot key |
-|---|---|
-| ![Lighting settings](docs/images/screenshot-lighting.png) | ![Copilot key settings](docs/images/screenshot-copilot.png) |
+| Lighting | Copilot key | Macros |
+|---|---|---|
+| ![Lighting settings](docs/images/screenshot-lighting.png) | ![Copilot key settings](docs/images/screenshot-copilot.png) | ![Macro profiles](docs/images/screenshot-macros.png) |
 
 - **Lighting** — mode, brightness, speed, direction and mirroring. Changes apply
   live as you move the controls, no "Apply" button.
@@ -21,6 +21,12 @@ from the official app and rebuilt as a native GNOME app for Ubuntu.
   (e.g. `Ctrl+Space` to start a voice-recording app), or **run a command**.
   Shortcuts are stored on the keyboard itself, so they work in every app and on
   other computers too.
+- **Macros & profiles** — put macros on up to 19 keys, stored on the keyboard.
+  Includes the 12 official Genius macros (PUBG presets: recoil spray, auto
+  sprint, quick scope, grenade…), plus your own: record keystrokes with real
+  timing, add mouse clicks and movements, edit delays. Repeat modes: N times,
+  until pressed again, or **while held (rapid fire)**. Switch between profiles
+  such as *Gaming* and *Productivity* with one click.
 - **Top-bar icon** — the app keeps running in the top bar when you close the
   window; click the keyboard icon to open it again. Enable **☰ → Start at
   login** to have it there after every login (it starts hidden).
@@ -39,11 +45,13 @@ The goal is to offer everything the official Windows/macOS software does.
 |---|---|
 | Lighting mode, brightness, speed, direction | ✅ |
 | Copilot key: assign a shortcut (macro) | ✅ |
+| Programmable macro keys, rapid fire, official macro presets | ✅ (v0.2) |
+| Macro profiles (Gaming, Productivity, custom) | ✅ (v0.2) |
 | Copilot key: launch an app | ✅ (via GNOME shortcut) |
 | Settings saved on the keyboard | ✅ |
 | Custom colours / 7-colour palette | 🚧 planned |
 | Remap any key, Fn-key assignments | 🚧 planned |
-| Macros on other keys | 🚧 planned |
+| Lighting effects inside macros | 🚧 planned |
 | Win-key / Alt+F4 lock | 🚧 planned |
 
 ## Install (Ubuntu / Debian)
@@ -100,6 +108,7 @@ scorpion-k7-cli find                        # show the keyboard's config interfa
 scorpion-k7-cli led                         # show the current lighting record
 scorpion-k7-cli set-led --mode 2 --yes      # change lighting (see --help)
 scorpion-k7-cli dump 0x0 0x1000 -o backup.bin   # back up the 4 KB settings memory
+scorpion-k7-cli restore backup.bin --yes    # put that backup back (settings + macros)
 scorpion-k7-cli release                     # hand the keyboard back to normal typing
 ```
 

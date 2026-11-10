@@ -16,7 +16,8 @@ mkdir -p "$STAGE/DEBIAN" "$STAGE/usr/bin" "$STAGE/usr/share/$PKG" \
          "$STAGE/usr/share/doc/$PKG" "$ROOT/dist"
 
 # Application
-install -m 644 "$ROOT/scorpion_k7.py" "$ROOT/scorpion_k7_gui.py" "$ROOT/tray.py" "$STAGE/usr/share/$PKG/"
+install -m 644 "$ROOT/scorpion_k7.py" "$ROOT/scorpion_k7_gui.py" "$ROOT/tray.py" \
+    "$ROOT/k7macros.py" "$ROOT/macros_page.py" "$ROOT/macros_default.json" "$STAGE/usr/share/$PKG/"
 install -m 644 "$ROOT/70-scorpion-k7.rules" "$STAGE/usr/share/$PKG/"
 cat > "$STAGE/usr/bin/scorpion-k7" <<'EOF'
 #!/bin/sh
