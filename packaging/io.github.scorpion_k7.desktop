@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Scorpion K7
+GenericName=Keyboard Settings
+Comment=Configure the backlight and Copilot key of the Genius Scorpion K7 keyboard
+Exec=scorpion-k7
+Icon=input-keyboard
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=keyboard;rgb;backlight;lighting;copilot;macro;genius;scorpion;
+StartupNotify=true

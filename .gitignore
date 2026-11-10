@@ -1,0 +1,15 @@
+# Vendor software (copyrighted, not MIT) — never commit
+Scorpion-K7.zip
+extracted/
+
+# Personal keyboard memory backups
+dumps/
+
+# Build output
+dist/
+build/
+
+# Python / logs
+__pycache__/
+*.pyc
+*.log

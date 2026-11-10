@@ -1,0 +1,5 @@
+# Genius Scorpion K7 (0458:6013): let the logged-in desktop user configure the
+# keyboard (hidraw) and soft-reset it over USB, without root.
+# Install: sudo cp 70-scorpion-k7.rules /etc/udev/rules.d/ && sudo udevadm control --reload && sudo udevadm trigger
+KERNEL=="hidraw*", ATTRS{idVendor}=="0458", ATTRS{idProduct}=="6013", TAG+="uaccess"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="0458", ATTR{idProduct}=="6013", TAG+="uaccess"

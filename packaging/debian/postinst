@@ -1,0 +1,10 @@
+#!/bin/sh
+# Apply the udev rule right away so the logged-in user can configure the
+# keyboard without root and without logging out.
+set -e
+if [ "$1" = "configure" ] && command -v udevadm >/dev/null 2>&1; then
+    udevadm control --reload-rules || true
+    udevadm trigger --action=change --subsystem-match=hidraw || true
+    udevadm trigger --action=change --subsystem-match=usb --attr-match=idVendor=0458 || true
+fi
+exit 0
