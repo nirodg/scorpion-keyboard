@@ -3,6 +3,16 @@
 An open-source Linux alternative to the official Windows app for the
 **Genius Scorpion K7** RGB gaming keyboard (USB `0458:6013`).
 
+A budget keyboard (**90 lei, about €16**) whose configuration software only
+runs on Windows. Now it can be configured on Linux too: the protocol was
+reverse-engineered from the official app and rebuilt as a native GNOME app.
+
+![Genius Scorpion K7 keyboard with its box](docs/images/keyboard.jpg)
+
+| Lighting | Copilot key |
+|---|---|
+| ![Lighting settings](docs/images/screenshot-lighting.png) | ![Copilot key settings](docs/images/screenshot-copilot.png) |
+
 - **Lighting** — mode, brightness, speed, direction and mirroring. Changes apply
   live as you move the controls, no "Apply" button.
 - **Copilot key** — keep the Windows default, make it **send any shortcut**

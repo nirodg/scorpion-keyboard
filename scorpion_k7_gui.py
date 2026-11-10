@@ -147,8 +147,7 @@ class Window(Adw.ApplicationWindow):
 
         # --- Effect ---
         eff = Adw.PreferencesGroup(title="Effect",
-                                   description="Pick the lighting effect. Names come from the official app; "
-                                               "the order is still being confirmed on your keyboard.")
+                                   description="Pick the lighting effect (names as in the official app).")
         page.add(eff)
         self.mode_ids = sorted(k7.MODES)
         self.mode_row = Adw.ComboRow(

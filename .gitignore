@@ -2,6 +2,9 @@
 Scorpion-K7.zip
 extracted/
 
+# Original phone photo (has EXIF); the cleaned copy is docs/images/keyboard.jpg
+proof.jpg
+
 # Personal keyboard memory backups
 dumps/
 
@@ -13,3 +16,7 @@ build/
 __pycache__/
 *.pyc
 *.log
+
+# Local engineering notes & tools (not published)
+.dev/
+CLAUDE.local.md
